@@ -218,8 +218,7 @@ if __name__ == "__main__":
 
                 # Extract year, month, day, hours, minutes, seconds from timestamp
                 img_timestamp = re.search(
-                    r"(?P<YYYY>\d\d\d?\d?):(?P<MM>\d\d?):(?P<DD>\d\d?) "
-                    "(?P<hh>\d\d?):(?P<mm>\d\d?):(?P<ss>\d\d?)",
+                    r"(?P<YYYY>\d\d\d?\d?):(?P<MM>\d\d?):(?P<DD>\d\d?) (?P<hh>\d\d?):(?P<mm>\d\d?):(?P<ss>\d\d?)",
                     img_timestamp.strip(),
                 )
 
